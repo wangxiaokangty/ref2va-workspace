@@ -1,0 +1,62 @@
+{
+  "source_path_from_workspace": "examples/input.mp4",
+  "source_url": "https://www.adsoftheworld.com/campaigns/can-t-touch-this-super-bowl",
+  "source_sha256": "5e8b5cb5ccacc7a8a7233e3f2d6587471c5ad6883043f3f78058b891538b2f51",
+  "source_fps": "24000/1001",
+  "frame_numbering": "zero-based, end-exclusive",
+  "images": [
+    {
+      "path": "inputs/picture_1.png",
+      "source_frame": 409,
+      "source_seconds": 17.058708333333332,
+      "transform": "full frame; no synthesis or cropping",
+      "sha256": "79f8a73d9e70bcaeaf56831fb862a3396d1fd7e466e43214d24421911cdb27c3"
+    },
+    {
+      "path": "inputs/picture_2.png",
+      "source_frame": 558,
+      "source_seconds": 23.27325,
+      "transform": "full frame; no synthesis or cropping",
+      "sha256": "7b78f9b8dbb08398d8e2a0da41187e113a85f021bf7797fcec192d637434dd28"
+    }
+  ],
+  "reference_video": {
+    "source_frame_start": 62,
+    "source_frame_end_exclusive": 200,
+    "source_start_seconds": 2.585916666666667,
+    "source_end_seconds": 8.341666666666667,
+    "source_duration_seconds": 5.75575,
+    "num_frames": 141,
+    "duration_seconds": 5.875,
+    "fps": 24,
+    "width": 1344,
+    "height": 768,
+    "audio_sample_rate": 32000,
+    "audio_channels": 2,
+    "time_padding_seconds": 0.11925000000000008,
+    "path": "inputs/video_1.mp4",
+    "sha256": "089683fafa21b752cbf3bfdb7b63d8d1fb2571e55116f4765d4eef3226adea3b"
+  },
+  "target_video": {
+    "source_frame_start": 200,
+    "source_frame_end_exclusive": 374,
+    "source_start_seconds": 8.341666666666667,
+    "source_end_seconds": 15.598916666666666,
+    "source_duration_seconds": 7.257249999999999,
+    "num_frames": 175,
+    "duration_seconds": 7.291666666666667,
+    "fps": 24,
+    "width": 1344,
+    "height": 768,
+    "audio_sample_rate": 32000,
+    "audio_channels": 2,
+    "time_padding_seconds": 0.03441666666666787,
+    "path": "targets/target.mp4",
+    "sha256": "9d2ef7a7595d5d41f8ae0303f1059021fb355de02246b21ed34eefa578fafacc"
+  },
+  "spatial_transform": "1280x720 -> 1344x756, then 6-pixel black padding at top and bottom; no spatial crop",
+  "temporal_transform": "Resample 24000/1001 fps to 24 fps; clone the final selected frame and pad audio with silence to reach 17*n+5 frames.",
+  "source_intervals_disjoint": true,
+  "media_path_base": "../pure (relative to this provenance.json)",
+  "packaging_note": "Copied sample provenance; source path and media path base adapted for this workspace. Source intervals and media hashes are unchanged."
+}

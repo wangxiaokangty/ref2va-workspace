@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-08T09:15:21.892616+00:00",
+  "path_base": "workspace root",
+  "scope": "Packaging integrity and relocation checks; not a new semantic or model evaluation",
+  "checks": {
+    "sample_files_byte_identical": true,
+    "source_video_byte_identical": true,
+    "sample_media_hashes_match_provenance": true,
+    "target_wav_metadata_matches_record": true,
+    "reference_snapshot_hashes_valid": true,
+    "sample_relative_paths_resolve": true,
+    "local_markdown_links_resolve": true,
+    "local_markdown_link_count": 27,
+    "no_absolute_original_workspace_paths_in_markdown": true,
+    "no_symlinks": true,
+    "copied_to_unrelated_directory_and_revalidated": true
+  },
+  "source_sha256": "5e8b5cb5ccacc7a8a7233e3f2d6587471c5ad6883043f3f78058b891538b2f51",
+  "copied_sample_files": [
+    {
+      "file": "examples/pure/dataset.jsonl",
+      "sha256": "3ecf1a992a7eadf6b1053a6d9a8592f8c6168ca5700c5b79e34487f11048248d",
+      "size_bytes": 6786
+    },
+    {
+      "file": "examples/pure/inputs/picture_1.png",
+      "sha256": "79f8a73d9e70bcaeaf56831fb862a3396d1fd7e466e43214d24421911cdb27c3",
+      "size_bytes": 862611
+    },
+    {
+      "file": "examples/pure/inputs/picture_2.png",
+      "sha256": "7b78f9b8dbb08398d8e2a0da41187e113a85f021bf7797fcec192d637434dd28",
+      "size_bytes": 1522575
+    },
+    {
+      "file": "examples/pure/inputs/video_1.mp4",
+      "sha256": "089683fafa21b752cbf3bfdb7b63d8d1fb2571e55116f4765d4eef3226adea3b",
+      "size_bytes": 1312056
+    },
+    {
+      "file": "examples/pure/oringin.mp4",
+      "sha256": "5e8b5cb5ccacc7a8a7233e3f2d6587471c5ad6883043f3f78058b891538b2f51",
+      "size_bytes": 2312195
+    },
+    {
+      "file": "examples/pure/targets/target.mp4",
+      "sha256": "9d2ef7a7595d5d41f8ae0303f1059021fb355de02246b21ed34eefa578fafacc",
+      "size_bytes": 1929307
+    },
+    {
+      "file": "examples/pure/targets/target_audio.wav",
+      "sha256": "bcfccf831f16c991895b96ea37bb53d4b00a9c6fc5a20293c5e869bf61d141cb",
+      "size_bytes": 933410
+    }
+  ],
+  "sample_needs_audio_review": true,
+  "sample_uncertain_audio_spans_seconds": [
+    [
+      1.2,
+      2.6
+    ]
+  ],
+  "human_audio_review_performed_during_packaging": false,
+  "model_inference_run": false
+}

@@ -1,0 +1,170 @@
+{
+  "method": "faster-whisper small.en, CPU int8; automatic, not human verified",
+  "clips": {
+    "inputs/video_1.mp4": [
+      {
+        "start": 0.0,
+        "end": 2.64,
+        "text": " I'm gonna need you to, never mind.",
+        "avg_logprob": -0.47303029149770737,
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.06,
+            "word": " I'm",
+            "probability": 0.7474394738674164
+          },
+          {
+            "start": 0.06,
+            "end": 0.18,
+            "word": " gonna",
+            "probability": 0.8159080147743225
+          },
+          {
+            "start": 0.18,
+            "end": 0.4,
+            "word": " need",
+            "probability": 0.9977608919143677
+          },
+          {
+            "start": 0.4,
+            "end": 0.54,
+            "word": " you",
+            "probability": 0.9075769782066345
+          },
+          {
+            "start": 0.54,
+            "end": 0.66,
+            "word": " to,",
+            "probability": 0.9851862788200378
+          },
+          {
+            "start": 1.78,
+            "end": 2.18,
+            "word": " never",
+            "probability": 0.9854313135147095
+          },
+          {
+            "start": 2.18,
+            "end": 2.64,
+            "word": " mind.",
+            "probability": 0.383720338344574
+          }
+        ]
+      },
+      {
+        "start": 4.94,
+        "end": 5.74,
+        "text": " Can't touch this.",
+        "avg_logprob": -0.47303029149770737,
+        "words": [
+          {
+            "start": 4.94,
+            "end": 5.38,
+            "word": " Can't",
+            "probability": 0.5521861091256142
+          },
+          {
+            "start": 5.38,
+            "end": 5.5,
+            "word": " touch",
+            "probability": 0.9966104626655579
+          },
+          {
+            "start": 5.5,
+            "end": 5.74,
+            "word": " this.",
+            "probability": 0.9949824810028076
+          }
+        ]
+      }
+    ],
+    "targets/target.mp4": [
+      {
+        "start": 1.4999999999999991,
+        "end": 2.54,
+        "text": " Help me.",
+        "avg_logprob": -0.4756049540909854,
+        "words": [
+          {
+            "start": 1.4999999999999991,
+            "end": 2.0199999999999996,
+            "word": " Help",
+            "probability": 0.34599584341049194
+          },
+          {
+            "start": 2.0199999999999996,
+            "end": 2.54,
+            "word": " me.",
+            "probability": 0.23096413910388947
+          }
+        ]
+      },
+      {
+        "start": 2.92,
+        "end": 3.66,
+        "text": " You can't touch this.",
+        "avg_logprob": -0.4756049540909854,
+        "words": [
+          {
+            "start": 2.92,
+            "end": 3.04,
+            "word": " You",
+            "probability": 0.858544111251831
+          },
+          {
+            "start": 3.04,
+            "end": 3.28,
+            "word": " can't",
+            "probability": 0.992859274148941
+          },
+          {
+            "start": 3.28,
+            "end": 3.4,
+            "word": " touch",
+            "probability": 0.9976307153701782
+          },
+          {
+            "start": 3.4,
+            "end": 3.66,
+            "word": " this.",
+            "probability": 0.9955592155456543
+          }
+        ]
+      },
+      {
+        "start": 6.0,
+        "end": 7.16,
+        "text": " You can't touch this.",
+        "avg_logprob": -0.4756049540909854,
+        "words": [
+          {
+            "start": 6.0,
+            "end": 6.52,
+            "word": " You",
+            "probability": 0.8929618000984192
+          },
+          {
+            "start": 6.52,
+            "end": 6.8,
+            "word": " can't",
+            "probability": 0.9962314665317535
+          },
+          {
+            "start": 6.8,
+            "end": 6.9,
+            "word": " touch",
+            "probability": 0.9963579773902893
+          },
+          {
+            "start": 6.9,
+            "end": 7.16,
+            "word": " this.",
+            "probability": 0.9965707063674927
+          }
+        ]
+      }
+    ]
+  },
+  "media_path_base": "../pure (relative to this transcript file)"
+}

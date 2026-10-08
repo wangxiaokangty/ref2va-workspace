@@ -1,0 +1,44 @@
+{
+  "snapshot_date": "2026-10-08",
+  "path_base": "workspace root",
+  "note": "File hashes identify the copied local snapshot; a checkout commit alone does not describe uncommitted changes.",
+  "files": [
+    {
+      "file": "reference/minimax-h3/skills/h3-prompt-writing/SKILL.md",
+      "upstream_project": "MiniMax-AI/MiniMax-H3",
+      "checkout_commit": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "upstream_path": "skills/h3-prompt-writing/SKILL.md",
+      "sha256": "a7000443588ca3f145e3b3fd8900f14e0325dc460bd811268fac89a9dc8e56d0"
+    },
+    {
+      "file": "reference/minimax-h3/skills/h3-prompt-writing/agents/openai.yaml",
+      "upstream_project": "MiniMax-AI/MiniMax-H3",
+      "checkout_commit": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "upstream_path": "skills/h3-prompt-writing/agents/openai.yaml",
+      "sha256": "7770c9d784b7251ab882ee29a738219a3f01811e57ba7fc7822fa83eb8438c1a"
+    },
+    {
+      "file": "reference/minimax-h3/skills/h3-prompt-writing/references/base-en.txt",
+      "upstream_project": "MiniMax-AI/MiniMax-H3",
+      "checkout_commit": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "upstream_path": "skills/h3-prompt-writing/references/base-en.txt",
+      "sha256": "2cfebc096a6e08370f288d468d90b60f7f9bcb938f94bf090816e910e48e75fc"
+    },
+    {
+      "file": "reference/minimax-h3/skills/h3-prompt-writing/references/ref-en.txt",
+      "upstream_project": "MiniMax-AI/MiniMax-H3",
+      "checkout_commit": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "upstream_path": "skills/h3-prompt-writing/references/ref-en.txt",
+      "sha256": "1e574f356716ad55612247ffb7bbccbcdb484ad96599d63c7dca1af186b1fab7"
+    },
+    {
+      "file": "reference/minimax-h3/input-specs.md",
+      "upstream_project": "MiniMax-AI/MiniMax-H3",
+      "checkout_commit": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+      "upstream_path": "README.zh-CN.md",
+      "upstream_file_sha256": "5c109694dae87cf042fcf0c9c7d3baa764c3e8fa111058db7c3376c1eb9916f4",
+      "adaptation": "Excerpt of input/output specifications; local navigation added",
+      "sha256": "3b3a116649ea68ed4fef5cf1a86693376f24ebe3510a782439d52099c6197e94"
+    }
+  ]
+}
