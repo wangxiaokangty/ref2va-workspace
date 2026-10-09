@@ -51,4 +51,6 @@ WORK_DIR=outputs/my_video/work
 
 媒体导出规则见 [reference/media-profile.md](reference/media-profile.md)。H3 格式指南为本地版本快照，出处见 [reference/SOURCES.json](reference/SOURCES.json)。
 
+各脚本的用途、输入输出、调用顺序及与 `PROMPT.md` 的对应关系见 [scripts/README.md](scripts/README.md)。
+
 样例保留了声音待复核标记。文件复制检查通过不表示声音已完成复核，具体见 [examples/README.md](examples/README.md)。
