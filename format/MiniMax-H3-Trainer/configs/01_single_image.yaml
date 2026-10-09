@@ -1,0 +1,58 @@
+model:
+  model_path: ${H3_MODEL_PATH}
+  variant: ref2va
+  training_mode: lora
+lora:
+  rank: 32
+  alpha: 32
+  dropout: 0.0
+  target_modules:
+  - to_q
+  - to_k
+  - to_v
+  - to_out.0
+training_strategy:
+  name: flexible
+  video:
+    is_generated: true
+    latents_dir: latents
+    conditions:
+    - type: reference
+      modality: image
+      latents_dir: reference_latents
+      probability: 1.0
+  audio:
+    is_generated: true
+    latents_dir: audio_latents
+    conditions: []
+optimization:
+  steps: 10
+  learning_rate: 0.0002
+  batch_size: 1
+  gradient_accumulation_steps: 1
+  enable_gradient_checkpointing: true
+  max_seq_tokens: 70000
+acceleration:
+  strategy: deepspeed_zero3
+  mixed_precision_mode: bf16
+  quantization: none
+data:
+  preprocessed_data_root: ${H3_SAMPLE_ROOT}/.precomputed/01_single_image
+  val_split_every: 0
+  num_dataloader_workers: 0
+validation:
+  samples: []
+  video_dims:
+  - 832
+  - 480
+  - 124
+  frame_rate: 24.0
+  sample_media: false
+  skip_initial_validation: true
+  interval: 100
+checkpoints:
+  interval: 10
+wandb:
+  enabled: false
+output_dir: ${H3_SAMPLE_ROOT}/runs/01_single_image
+seed: 42

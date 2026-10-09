@@ -1,0 +1,10 @@
+[
+  {
+    "id": "03_image_audio",
+    "video": "media/targets/03_image_audio.mp4",
+    "caption": "The red circle from the image reference moves up and down over a pale background. Use the soft 660 Hz electronic tone from the audio reference. Static camera; no speech.",
+    "reference_image": "media/images/red_circle.png",
+    "reference_audio": "media/references/tone_660.wav",
+    "audio": "media/targets/03_image_audio.wav"
+  }
+]

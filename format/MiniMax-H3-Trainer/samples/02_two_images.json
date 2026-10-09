@@ -1,0 +1,11 @@
+[
+  {
+    "id": "02_two_images",
+    "video": "media/targets/02_two_images.mp4",
+    "caption": "The red circle from the first reference and the blue square from the second reference move toward each other over a pale background. Static camera. A soft 550 Hz electronic tone plays; no speech.",
+    "reference_image": [
+      "media/images/red_circle.png",
+      "media/images/blue_square.png"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "04_image_video",
+    "video": "media/targets/04_image_video.mp4",
+    "caption": "The red circle from the image reference follows the left-to-right motion in the silent video reference. Pale background, static camera. A soft 770 Hz electronic tone plays; no speech.",
+    "reference_image": "media/images/red_circle.png",
+    "reference_video": "media/references/red_motion_silent.mp4"
+  }
+]

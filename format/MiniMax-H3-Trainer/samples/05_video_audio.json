@@ -1,0 +1,8 @@
+[
+  {
+    "id": "05_video_audio",
+    "video": "media/targets/05_video_audio.mp4",
+    "caption": "The blue square in the reference video moves from left to right over a pale background. Preserve its blue color and the soft 880 Hz tone in the reference soundtrack. Static camera; no speech.",
+    "reference_video": "media/references/blue_motion_av.mp4"
+  }
+]

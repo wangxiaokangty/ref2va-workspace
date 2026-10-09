@@ -1,0 +1,70 @@
+[
+  {
+    "video": "media/targets/01_single_image.mp4",
+    "prompt": "The red circle from the reference image moves from left to right over a pale background. Static camera. A soft 440 Hz electronic tone plays; no speech.",
+    "input_audio": "media/targets/01_single_image.mp4",
+    "references": [
+      {
+        "type": "image",
+        "image": "media/images/red_circle.png"
+      }
+    ]
+  },
+  {
+    "video": "media/targets/02_two_images.mp4",
+    "prompt": "The red circle from the first reference and the blue square from the second reference move toward each other over a pale background. Static camera. A soft 550 Hz electronic tone plays; no speech.",
+    "input_audio": "media/targets/02_two_images.mp4",
+    "references": [
+      {
+        "type": "image",
+        "image": "media/images/red_circle.png"
+      },
+      {
+        "type": "image",
+        "image": "media/images/blue_square.png"
+      }
+    ]
+  },
+  {
+    "video": "media/targets/03_image_audio.mp4",
+    "prompt": "The red circle from the image reference moves up and down over a pale background. Use the soft 660 Hz electronic tone from the audio reference. Static camera; no speech.",
+    "input_audio": "media/targets/03_image_audio.mp4",
+    "references": [
+      {
+        "type": "image",
+        "image": "media/images/red_circle.png"
+      },
+      {
+        "type": "audio",
+        "audio": "media/references/tone_660.wav"
+      }
+    ]
+  },
+  {
+    "video": "media/targets/04_image_video.mp4",
+    "prompt": "The red circle from the image reference follows the left-to-right motion in the silent video reference. Pale background, static camera. A soft 770 Hz electronic tone plays; no speech.",
+    "input_audio": "media/targets/04_image_video.mp4",
+    "references": [
+      {
+        "type": "image",
+        "image": "media/images/red_circle.png"
+      },
+      {
+        "type": "video",
+        "video": "media/references/red_motion_silent.mp4"
+      }
+    ]
+  },
+  {
+    "video": "media/targets/05_video_audio.mp4",
+    "prompt": "The blue square in the reference video moves from left to right over a pale background. Preserve its blue color and the soft 880 Hz tone in the reference soundtrack. Static camera; no speech.",
+    "input_audio": "media/targets/05_video_audio.mp4",
+    "references": [
+      {
+        "type": "video_audio",
+        "video": "media/references/blue_motion_av.mp4",
+        "audio": "media/references/blue_motion_av.mp4"
+      }
+    ]
+  }
+]

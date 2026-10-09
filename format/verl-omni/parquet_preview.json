@@ -1,0 +1,240 @@
+{
+  "warning": "Display only. Image bytes have been replaced with summaries. Train using the .parquet files.",
+  "splits": {
+    "train": {
+      "arrow_schema": "data_source: large_string\nprompt: list<element: struct<role: string, content: string>>\n  child 0, element: struct<role: string, content: string>\n      child 0, role: string\n      child 1, content: string\nability: large_string\nimages: list<element: struct<bytes: binary>>\n  child 0, element: struct<bytes: binary>\n      child 0, bytes: binary\nvideos: list<element: struct<video: string, start_time_seconds: double>>\n  child 0, element: struct<video: string, start_time_seconds: double>\n      child 0, video: string\n      child 1, start_time_seconds: double\naudios: list<element: string>\n  child 0, element: string\nreward_model: struct<style: string, ground_truth: string>\n  child 0, style: string\n  child 1, ground_truth: string\nextra_info: struct<split: string, index: int64, source_images: list<element: string>, source_videos: list<elemen (... 49 chars omitted)\n  child 0, split: string\n  child 1, index: int64\n  child 2, source_images: list<element: string>\n      child 0, element: string\n  child 3, source_videos: list<element: string>\n      child 0, element: string\n  child 4, source_audios: list<element: string>\n      child 0, element: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 1213",
+      "rows": [
+        {
+          "data_source": "minimax_h3_ref2va",
+          "prompt": [
+            {
+              "role": "user",
+              "content": "<image>The red circle from the reference image moves from left to right over a pale background. Static camera. A soft 440 Hz electronic tone plays; no speech."
+            }
+          ],
+          "ability": "reference_to_audio_video",
+          "images": [
+            {
+              "bytes_summary_DISPLAY_ONLY": {
+                "length": 2727,
+                "sha256": "c1b94cb04b9903c8651dd68c709b5e0395d3aadba2ee49f8423e4a353277ac60"
+              }
+            }
+          ],
+          "videos": [],
+          "audios": [],
+          "reward_model": {
+            "style": "model",
+            "ground_truth": "The red circle from the reference image moves from left to right over a pale background. Static camera. A soft 440 Hz electronic tone plays; no speech."
+          },
+          "extra_info": {
+            "split": "train",
+            "index": 0,
+            "source_images": [
+              "/Users/wxk/Desktop/format/verl-omni/media/images/red_circle.png"
+            ],
+            "source_videos": [],
+            "source_audios": []
+          }
+        },
+        {
+          "data_source": "minimax_h3_ref2va",
+          "prompt": [
+            {
+              "role": "user",
+              "content": "<image><image>The red circle from the first reference and the blue square from the second reference move toward each other over a pale background. Static camera. A soft 550 Hz electronic tone plays; no speech."
+            }
+          ],
+          "ability": "reference_to_audio_video",
+          "images": [
+            {
+              "bytes_summary_DISPLAY_ONLY": {
+                "length": 2727,
+                "sha256": "c1b94cb04b9903c8651dd68c709b5e0395d3aadba2ee49f8423e4a353277ac60"
+              }
+            },
+            {
+              "bytes_summary_DISPLAY_ONLY": {
+                "length": 2340,
+                "sha256": "47eaa7dbfbd67d5f6b95e4d6303c94202563effc3004f2120cf5a844cc3c5cdc"
+              }
+            }
+          ],
+          "videos": [],
+          "audios": [],
+          "reward_model": {
+            "style": "model",
+            "ground_truth": "The red circle from the first reference and the blue square from the second reference move toward each other over a pale background. Static camera. A soft 550 Hz electronic tone plays; no speech."
+          },
+          "extra_info": {
+            "split": "train",
+            "index": 1,
+            "source_images": [
+              "/Users/wxk/Desktop/format/verl-omni/media/images/red_circle.png",
+              "/Users/wxk/Desktop/format/verl-omni/media/images/blue_square.png"
+            ],
+            "source_videos": [],
+            "source_audios": []
+          }
+        },
+        {
+          "data_source": "minimax_h3_ref2va",
+          "prompt": [
+            {
+              "role": "user",
+              "content": "<image><audio>The red circle from the image reference moves up and down over a pale background. Use the soft 660 Hz electronic tone from the audio reference. Static camera; no speech."
+            }
+          ],
+          "ability": "reference_to_audio_video",
+          "images": [
+            {
+              "bytes_summary_DISPLAY_ONLY": {
+                "length": 2727,
+                "sha256": "c1b94cb04b9903c8651dd68c709b5e0395d3aadba2ee49f8423e4a353277ac60"
+              }
+            }
+          ],
+          "videos": [],
+          "audios": [
+            "/Users/wxk/Desktop/format/verl-omni/media/references/tone_660.wav"
+          ],
+          "reward_model": {
+            "style": "model",
+            "ground_truth": "The red circle from the image reference moves up and down over a pale background. Use the soft 660 Hz electronic tone from the audio reference. Static camera; no speech."
+          },
+          "extra_info": {
+            "split": "train",
+            "index": 2,
+            "source_images": [
+              "/Users/wxk/Desktop/format/verl-omni/media/images/red_circle.png"
+            ],
+            "source_videos": [],
+            "source_audios": [
+              "/Users/wxk/Desktop/format/verl-omni/media/references/tone_660.wav"
+            ]
+          }
+        },
+        {
+          "data_source": "minimax_h3_ref2va",
+          "prompt": [
+            {
+              "role": "user",
+              "content": "<image><video>The red circle from the image reference follows the left-to-right motion in the silent video reference. Pale background, static camera. A soft 770 Hz electronic tone plays; no speech."
+            }
+          ],
+          "ability": "reference_to_audio_video",
+          "images": [
+            {
+              "bytes_summary_DISPLAY_ONLY": {
+                "length": 2727,
+                "sha256": "c1b94cb04b9903c8651dd68c709b5e0395d3aadba2ee49f8423e4a353277ac60"
+              }
+            }
+          ],
+          "videos": [
+            {
+              "video": "/Users/wxk/Desktop/format/verl-omni/media/references/red_motion_silent.mp4",
+              "start_time_seconds": 0.0
+            }
+          ],
+          "audios": [],
+          "reward_model": {
+            "style": "model",
+            "ground_truth": "The red circle from the image reference follows the left-to-right motion in the silent video reference. Pale background, static camera. A soft 770 Hz electronic tone plays; no speech."
+          },
+          "extra_info": {
+            "split": "train",
+            "index": 3,
+            "source_images": [
+              "/Users/wxk/Desktop/format/verl-omni/media/images/red_circle.png"
+            ],
+            "source_videos": [
+              "/Users/wxk/Desktop/format/verl-omni/media/references/red_motion_silent.mp4"
+            ],
+            "source_audios": []
+          }
+        },
+        {
+          "data_source": "minimax_h3_ref2va",
+          "prompt": [
+            {
+              "role": "user",
+              "content": "<video>The blue square in the reference video moves from left to right over a pale background. Preserve its blue color and the soft 880 Hz tone in the reference soundtrack. Static camera; no speech."
+            }
+          ],
+          "ability": "reference_to_audio_video",
+          "images": [],
+          "videos": [
+            {
+              "video": "/Users/wxk/Desktop/format/verl-omni/media/references/blue_motion_av.mp4",
+              "start_time_seconds": null
+            }
+          ],
+          "audios": [],
+          "reward_model": {
+            "style": "model",
+            "ground_truth": "The blue square in the reference video moves from left to right over a pale background. Preserve its blue color and the soft 880 Hz tone in the reference soundtrack. Static camera; no speech."
+          },
+          "extra_info": {
+            "split": "train",
+            "index": 4,
+            "source_images": [],
+            "source_videos": [
+              "/Users/wxk/Desktop/format/verl-omni/media/references/blue_motion_av.mp4"
+            ],
+            "source_audios": []
+          }
+        }
+      ]
+    },
+    "test": {
+      "arrow_schema": "data_source: large_string\nprompt: list<element: struct<role: string, content: string>>\n  child 0, element: struct<role: string, content: string>\n      child 0, role: string\n      child 1, content: string\nability: large_string\nimages: list<element: struct<bytes: binary>>\n  child 0, element: struct<bytes: binary>\n      child 0, bytes: binary\nvideos: list<element: struct<video: string, start_time_seconds: double>>\n  child 0, element: struct<video: string, start_time_seconds: double>\n      child 0, video: string\n      child 1, start_time_seconds: double\naudios: list<element: string>\n  child 0, element: string\nreward_model: struct<style: string, ground_truth: string>\n  child 0, style: string\n  child 1, ground_truth: string\nextra_info: struct<split: string, index: int64, source_images: list<element: string>, source_videos: list<elemen (... 49 chars omitted)\n  child 0, split: string\n  child 1, index: int64\n  child 2, source_images: list<element: string>\n      child 0, element: string\n  child 3, source_videos: list<element: string>\n      child 0, element: string\n  child 4, source_audios: list<element: string>\n      child 0, element: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 1213",
+      "rows": [
+        {
+          "data_source": "minimax_h3_ref2va",
+          "prompt": [
+            {
+              "role": "user",
+              "content": "<image><video><audio>The green triangle from the image follows the left-to-right motion of the green triangle in the video. A soft 990 Hz tone from the audio reference plays. Pale background, static camera; no speech."
+            }
+          ],
+          "ability": "reference_to_audio_video",
+          "images": [
+            {
+              "bytes_summary_DISPLAY_ONLY": {
+                "length": 2719,
+                "sha256": "3f63e0958216db91ca5efc2f193d59c33cab79f6485c049f9d64d9e26b96effc"
+              }
+            }
+          ],
+          "videos": [
+            {
+              "video": "/Users/wxk/Desktop/format/verl-omni/media/references/validation_motion_silent.mp4",
+              "start_time_seconds": 0.0
+            }
+          ],
+          "audios": [
+            "/Users/wxk/Desktop/format/verl-omni/media/references/validation_tone.wav"
+          ],
+          "reward_model": {
+            "style": "model",
+            "ground_truth": "The green triangle from the image follows the left-to-right motion of the green triangle in the video. A soft 990 Hz tone from the audio reference plays. Pale background, static camera; no speech."
+          },
+          "extra_info": {
+            "split": "test",
+            "index": 0,
+            "source_images": [
+              "/Users/wxk/Desktop/format/verl-omni/media/images/green_triangle.png"
+            ],
+            "source_videos": [
+              "/Users/wxk/Desktop/format/verl-omni/media/references/validation_motion_silent.mp4"
+            ],
+            "source_audios": [
+              "/Users/wxk/Desktop/format/verl-omni/media/references/validation_tone.wav"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
